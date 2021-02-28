@@ -1,0 +1,144 @@
+/* ################# ELEMENT SELECTORS ################# */
+body, h1, header {
+    margin: 0;
+}
+header {
+    background-color: #c9f7f7;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #66bfbf;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d5f5f5;
+}
+
+h3 {
+    color: #11999E;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+/* ################# CLASS SELECTORS ################# */
+
+.div-one {
+    text-align: center;
+}
+.cloud-img {
+    width: 20%;
+}
+
+.mountain-img {
+    width: 70%;
+    margin-top: 2rem;
+}
+.dark-bg {
+    background-color: black;
+    color: white;
+
+}
+
+.thin-text {
+    font-weight: normal;
+}
+
+.make-cursive {
+    font-family: 'Sacramento', cursive;
+    
+}
+
+.cloud1 {
+    margin-top: 0.8rem;
+    position: relative;
+    left: 30%;
+   
+}
+.cloud2 {
+    position: absolute;
+    left: 15%;
+   
+}
+
+.header-one {
+    font-size: 3rem;
+}
+
+.header-two {
+    font-size: 1.3rem;
+
+}
+
+.div-two {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.image-type1 {
+    margin-top: 1rem;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.break-line {
+    margin: 4rem auto 2rem auto;
+    width: 15%;
+    border-width: 0 0 0.5rem 0;
+    border-color: grey;
+    border-style: dotted;
+}
+
+
+@media screen and (min-width: 900px) {
+  .image1 {
+    float: left;
+    margin-right: 3rem;
+    width: 150px;
+  }
+  .para-xp {
+    text-align: left;
+    padding-top: 2rem;
+}
+.image2 {
+    float: right;
+    margin-left: 3rem;
+    width: 150px;
+}
+.skdfaj-alsdf {
+    text-align: left;
+    margin-top: 5rem;
+}
+.one {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.to-the-left {
+    text-align: left;
+}
+
+}
+
+.sub-div {
+    margin-top: 5rem;
+}
+
+.bottom {
+    background-color: #9ff8f8;
+    color: #00a9af;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+    
+}
+
+.bottom a {
+    color: #11999e;
+    text-decoration: none;
+    padding: 3rem 2rem;
+}
+
+.bottom img {
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
