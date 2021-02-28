@@ -106,6 +106,7 @@ h3 {
 }
 .skdfaj-alsdf {
     text-align: left;
+    padding-top: 3rem;
     margin-top: 5rem;
 }
 .one {
@@ -113,6 +114,11 @@ h3 {
     margin: 0 1rem;
 }
 .to-the-left {
+    text-align: left;
+}
+.heading-two {
+    margin-left: 12rem;
+
     text-align: left;
 }
 
@@ -142,3 +148,4 @@ h3 {
     position: relative;
     top: 5px;
 }
+
